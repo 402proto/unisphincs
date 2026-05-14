@@ -3,6 +3,7 @@ import Terminal from "./components/Terminal";
 import QuantumEta from "./components/QuantumEta";
 import Reveal from "./components/Reveal";
 import Playground from "./components/Playground";
+import ContractBar from "./components/ContractBar";
 import { XIcon, TelegramIcon, GitHubIcon, ForkIcon } from "./components/Icons";
 
 function SphinxMark() {
@@ -88,6 +89,7 @@ export default function Page() {
               <ForkIcon size={20} />
             </a>
           </div>
+          <ContractBar />
           <p className="oracle">
             <span className="pulse" />
             The sphinx asks one question. Will your signature outlive the curve?

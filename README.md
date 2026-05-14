@@ -13,7 +13,9 @@
 
 a uniswap-ready toolkit around **sphincs-**, built on top of vitalik buterin's reference implementation.
 
-[website](https://unisphincs.xyz) · [twitter](https://x.com/UniSphincs) · [telegram](https://t.me/unisphincs) · [upstream](https://github.com/vbuterin/sphincsminus) · [research paper](./SPHINCS-%20_%20Efficient%20Stateless%20Post-Quantum%20Signat.md) · [attribution](./ATTRIBUTION.md)
+[website](https://unisphincs.xyz) · [twitter](https://x.com/UniSphincs) · [telegram](https://t.me/unisphincs) · [buy on uniswap](https://app.uniswap.org/swap?chain=ethereum&outputCurrency=0x7a1EFc8b1ef04322cFB0CCB115336017d6c95feA) · [etherscan](https://etherscan.io/token/0x7a1EFc8b1ef04322cFB0CCB115336017d6c95feA) · [upstream](https://github.com/vbuterin/sphincsminus) · [research paper](./SPHINCS-%20_%20Efficient%20Stateless%20Post-Quantum%20Signat.md) · [attribution](./ATTRIBUTION.md)
+
+**$UNISPHINCS contract** on Ethereum mainnet: `0x7a1EFc8b1ef04322cFB0CCB115336017d6c95feA`
 
 </div>
 
@@ -87,8 +89,9 @@ every file marked **upstream** is the work of vitalik buterin and the sphincs- p
 
 - [x] public fork + attribution
 - [x] landing page with quantum-eta timer and live signing demo
+- [x] browser-based playground (sign / verify in webcrypto)
+- [x] $UNISPHINCS token launched on Ethereum mainnet
 - [ ] typescript sdk wrapping the python reference
-- [ ] browser-based playground (sign / verify in webcrypto)
 - [ ] solidity verifier contract
 - [ ] gas benchmarks vs ecdsa precompile
 - [ ] eip draft proposal

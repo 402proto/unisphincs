@@ -172,6 +172,135 @@ header.hero .tag {
   border-color: var(--pink-bright);
 }
 
+/* ─── contract bar (hero) ─── */
+
+.ca-bar {
+  margin: 2rem auto 0;
+  max-width: 560px;
+  padding: 1.1rem 1.2rem;
+  background:
+    linear-gradient(135deg, rgba(255, 0, 122, 0.1) 0%, rgba(255, 77, 161, 0.04) 100%),
+    var(--bg-elev);
+  border: 1px solid rgba(255, 0, 122, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 0 50px -20px rgba(255, 0, 122, 0.55);
+  text-align: left;
+}
+
+.ca-bar-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+
+.ca-bar-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--fg);
+  letter-spacing: 0.01em;
+}
+
+.ca-bar-net {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--pink);
+  font-weight: 600;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(255, 0, 122, 0.1);
+  border: 1px solid rgba(255, 0, 122, 0.3);
+}
+
+.ca-bar-addr {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--bg);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  margin-bottom: 0.75rem;
+}
+
+.ca-bar-addr:hover {
+  border-color: var(--pink);
+  background: rgba(255, 0, 122, 0.04);
+}
+
+.ca-bar-addr code {
+  flex: 1;
+  font-family:
+    "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.82rem;
+  color: var(--pink-bright);
+  word-break: break-all;
+  text-align: left;
+}
+
+.ca-bar-copy {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--dimmer);
+  padding: 0.25rem 0.6rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.ca-bar-copy.ok {
+  color: var(--success);
+  border-color: rgba(118, 209, 145, 0.4);
+  background: rgba(118, 209, 145, 0.08);
+}
+
+.ca-bar-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.ca-bar-btn {
+  flex: 1;
+  text-align: center;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--rule);
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.ca-bar-btn:hover {
+  border-color: var(--rule-bright);
+  background: var(--bg-elev);
+  color: var(--pink);
+}
+
+.ca-bar-btn-primary {
+  background: var(--pink);
+  color: #fff;
+  border-color: var(--pink);
+  box-shadow: 0 0 24px rgba(255, 0, 122, 0.35);
+}
+
+.ca-bar-btn-primary:hover {
+  background: var(--pink-bright);
+  border-color: var(--pink-bright);
+  color: #fff;
+}
+
 /* sphinx mark animation */
 @keyframes float {
   0%,
