@@ -34,13 +34,24 @@ export default function Page() {
             <span className="brand-sphincs">Sphincs</span>
           </h1>
           <div className="tag">
-            post-quantum signatures for the next ethereum. uniswap-ready
-            toolkit around sphincs-.
+            post-quantum signatures for the next ethereum. an open toolkit
+            wrapped around <b>sphincs-</b>, the scheme{" "}
+            <a
+              href="https://github.com/vbuterin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="vb-link"
+            >
+              vitalik buterin
+            </a>{" "}
+            published in may 2026 for evm-friendly deployment.
           </div>
           <div className="cta-row">
             <a
               className="btn btn-icon btn-primary"
               href="https://x.com/UniSphincs"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="twitter"
               title="twitter"
             >
@@ -49,6 +60,8 @@ export default function Page() {
             <a
               className="btn btn-icon"
               href="https://t.me/unisphincs"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="telegram"
               title="telegram"
             >
@@ -57,6 +70,8 @@ export default function Page() {
             <a
               className="btn btn-icon"
               href="https://github.com/unisphincs/unisphincs"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="github"
               title="github"
             >
@@ -65,6 +80,8 @@ export default function Page() {
             <a
               className="btn btn-icon"
               href="https://github.com/vbuterin/sphincsminus"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="upstream (vbuterin/sphincsminus)"
               title="upstream — vbuterin/sphincsminus"
             >
@@ -79,6 +96,30 @@ export default function Page() {
         </header>
 
         <Marquee />
+
+        <Reveal>
+          <aside className="vb-cite">
+            <div className="vb-cite-head">
+              <span className="vb-cite-tag">cited</span>
+              <a
+                href="https://github.com/vbuterin/sphincsminus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                vbuterin/sphincsminus
+              </a>
+              <span className="vb-cite-date">may 11, 2026</span>
+            </div>
+            <blockquote className="vb-quote">
+              “a minimal post-quantum stateless hash-based signature scheme
+              optimized for evm-friendly deployment.”
+            </blockquote>
+            <div className="vb-cite-foot">
+              vitalik buterin, opening line of the upstream readme. unisphincs
+              packages this implementation for builders.
+            </div>
+          </aside>
+        </Reveal>
 
         <Reveal>
           <section>
@@ -105,8 +146,20 @@ export default function Page() {
             <h2>sphincs-: minimal, stateless, evm-friendly</h2>
             <p>
               <b>sphincs-</b> (sphincs-minus) is a minimal stateless
-              hash-based post-quantum signature scheme, designed by vitalik
-              buterin and optimized for evm-friendly deployment.
+              hash-based post-quantum signature scheme, designed by{" "}
+              <a
+                href="https://github.com/vbuterin/sphincsminus"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="vb-link"
+              >
+                vitalik buterin
+              </a>{" "}
+              and optimized for evm-friendly deployment. the reference
+              implementation lives in the upstream repo as{" "}
+              <code>sphincs_minus.py</code>, accompanied by a{" "}
+              <code>SphincsMinus.lean</code> formal verification in lean 4 and
+              a public set of known-answer test vectors.
             </p>
 
             <div className="spec-grid">
@@ -176,7 +229,11 @@ export default function Page() {
             <h2>credit where credit is due</h2>
             <p>
               this repository is a public fork of{" "}
-              <a href="https://github.com/vbuterin/sphincsminus">
+              <a
+                href="https://github.com/vbuterin/sphincsminus"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 vbuterin/sphincsminus
               </a>
               . every cryptographic file is the work of vitalik buterin and
@@ -187,7 +244,11 @@ export default function Page() {
             <p>
               if vitalik buterin or any of the original authors request
               changes, we comply immediately. see{" "}
-              <a href="https://github.com/unisphincs/unisphincs/blob/main/ATTRIBUTION.md">
+              <a
+                href="https://github.com/unisphincs/unisphincs/blob/main/ATTRIBUTION.md"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 ATTRIBUTION.md
               </a>{" "}
               in the repo.
@@ -206,23 +267,46 @@ export default function Page() {
             <h2>read the source</h2>
             <ul className="feature-list">
               <li>
-                <a href="https://github.com/vbuterin/sphincsminus">
+                <a
+                  href="https://github.com/vbuterin/sphincsminus"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   vbuterin/sphincsminus
                 </a>{" "}
-                — reference implementation (python + lean 4)
+                — vitalik buterin's reference implementation (python + lean 4)
               </li>
               <li>
-                sphincs-: efficient stateless post-quantum signatures
-                (research paper, included in repo)
+                <a
+                  href="https://github.com/vbuterin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github.com/vbuterin
+                </a>{" "}
+                — vitalik's personal github, where sphincs- and the wider
+                ethereum research drafts live
               </li>
               <li>
-                <a href="https://github.com/unisphincs/unisphincs">
+                sphincs-: efficient stateless post-quantum signatures (research
+                paper, included in repo)
+              </li>
+              <li>
+                <a
+                  href="https://github.com/unisphincs/unisphincs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   unisphincs/unisphincs
                 </a>{" "}
                 — this fork
               </li>
               <li>
-                <a href="https://csrc.nist.gov/projects/post-quantum-cryptography">
+                <a
+                  href="https://csrc.nist.gov/projects/post-quantum-cryptography"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   nist pqc programme
                 </a>{" "}
                 — the broader post-quantum migration context
@@ -238,6 +322,8 @@ export default function Page() {
           <div className="channels">
             <a
               href="https://github.com/unisphincs/unisphincs"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="github"
               title="github"
             >
@@ -245,6 +331,8 @@ export default function Page() {
             </a>
             <a
               href="https://x.com/UniSphincs"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="twitter"
               title="twitter"
             >
@@ -252,6 +340,8 @@ export default function Page() {
             </a>
             <a
               href="https://t.me/unisphincs"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="telegram"
               title="telegram"
             >
