@@ -1,19 +1,19 @@
 <div align="center">
 
 ```
-██╗   ██╗███╗   ██╗██╗███████╗██████╗ ██╗  ██╗██╗███╗   ██╗██╗  ██╗
-██║   ██║████╗  ██║██║██╔════╝██╔══██╗██║  ██║██║████╗  ██║╚██╗██╔╝
-██║   ██║██╔██╗ ██║██║███████╗██████╔╝███████║██║██╔██╗ ██║ ╚███╔╝
-██║   ██║██║╚██╗██║██║╚════██║██╔═══╝ ██╔══██║██║██║╚██╗██║ ██╔██╗
-╚██████╔╝██║ ╚████║██║███████║██║     ██║  ██║██║██║ ╚████║██╔╝ ██╗
- ╚═════╝ ╚═╝  ╚═══╝╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝
+██╗   ██╗███╗   ██╗██╗███████╗██████╗ ██╗  ██╗██╗███╗   ██╗ ██████╗███████╗
+██║   ██║████╗  ██║██║██╔════╝██╔══██╗██║  ██║██║████╗  ██║██╔════╝██╔════╝
+██║   ██║██╔██╗ ██║██║███████╗██████╔╝███████║██║██╔██╗ ██║██║     ███████╗
+██║   ██║██║╚██╗██║██║╚════██║██╔═══╝ ██╔══██║██║██║╚██╗██║██║     ╚════██║
+╚██████╔╝██║ ╚████║██║███████║██║     ██║  ██║██║██║ ╚████║╚██████╗███████║
+ ╚═════╝ ╚═╝  ╚═══╝╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝
 ```
 
 **post-quantum signatures for the next ethereum**
 
 a uniswap-ready toolkit around **sphincs-**, built on top of vitalik buterin's reference implementation.
 
-[website](https://unisphinx.xyz) · [upstream](https://github.com/vbuterin/sphincsminus) · [research paper](./SPHINCS-%20_%20Efficient%20Stateless%20Post-Quantum%20Signat.md) · [attribution](./ATTRIBUTION.md)
+[website](https://unisphincs.xyz) · [upstream](https://github.com/vbuterin/sphincsminus) · [research paper](./SPHINCS-%20_%20Efficient%20Stateless%20Post-Quantum%20Signat.md) · [attribution](./ATTRIBUTION.md)
 
 </div>
 
@@ -93,27 +93,27 @@ every file marked **upstream** is the work of vitalik buterin and the sphincs- p
 - [ ] gas benchmarks vs ecdsa precompile
 - [ ] eip draft proposal
 - [ ] ethereum wallet integration spec
-- [ ] $unisphinx token launch on ethereum mainnet
+- [ ] $unisphincs token launch on ethereum mainnet
 - [ ] security audit of the sdk and verifier
 
 contributions welcome on any line item. open an issue first if it is non-trivial.
 
-## $unisphinx
+## $unisphincs
 
 a token launches on ethereum mainnet to fund continued work — sdk development, audit, ecosystem outreach. the token does not gate access to the cryptography. the cryptography is and will remain free.
 
 | | |
 | - | - |
 | chain | ethereum mainnet |
-| supply | 21,000,000 $UNISPHINX |
-| contract | tbd — announced at [unisphinx.xyz](https://unisphinx.xyz) |
-| pool | uniswap v4, unisphinx/eth |
+| supply | 21,000,000 $UNISPHINCS |
+| contract | tbd — announced at [unisphincs.xyz](https://unisphincs.xyz) |
+| pool | uniswap v4, unisphincs/eth |
 
 ## attribution
 
-the cryptography is not ours. unisphinx is a **fork-and-package** effort.
+the cryptography is not ours. unisphincs is a **fork-and-package** effort.
 
-cite the sphincs- paper, not unisphinx, when discussing the cryptography itself.
+cite the sphincs- paper, not unisphincs, when discussing the cryptography itself.
 
 > a minimal post-quantum stateless hash-based signature scheme optimized for evm-friendly deployment.
 >
@@ -125,10 +125,10 @@ if vitalik buterin or any of the original authors request changes or attribution
 
 **mit** for additions: `README.md`, `ATTRIBUTION.md`, `LICENSE`, `site/`, and any future `sdk/` or `examples/`.
 
-upstream content (`sphincs_minus.py`, `SphincsMinus.lean`, lean modules, test vectors, paper, original readme) remains the work of vitalik buterin and the sphincs- paper authors and is **not relicensed** by unisphinx.
+upstream content (`sphincs_minus.py`, `SphincsMinus.lean`, lean modules, test vectors, paper, original readme) remains the work of vitalik buterin and the sphincs- paper authors and is **not relicensed** by unisphincs.
 
 ---
 
 <div align="center">
-<sub>unisphinx · cryptography by <a href="https://github.com/vbuterin">vbuterin</a> · tooling by <a href="https://github.com/402proto">402proto</a> · 2026</sub>
+<sub>unisphincs · cryptography by <a href="https://github.com/vbuterin">vbuterin</a> · tooling by <a href="https://github.com/402proto">402proto</a> · 2026</sub>
 </div>

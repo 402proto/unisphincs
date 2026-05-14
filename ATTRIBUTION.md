@@ -1,6 +1,6 @@
 # attribution
 
-unisphinx is a fork-and-rebrand of [vbuterin/sphincsminus](https://github.com/vbuterin/sphincsminus). the cryptographic work is not ours.
+unisphincs is a fork-and-rebrand of [vbuterin/sphincsminus](https://github.com/vbuterin/sphincsminus). the cryptographic work is not ours.
 
 ## what is upstream
 
@@ -15,7 +15,7 @@ every file at the root of this repository, except `README.md` (which is rebrande
 
 ## what is ours
 
-- `README.md` — rebranded for the unisphinx project
+- `README.md` — rebranded for the unisphincs project
 - `ATTRIBUTION.md` — this file
 - `site/` — landing page (next.js, mit)
 - any future `sdk/` or `examples/` — under mit
@@ -26,10 +26,10 @@ the underlying scheme is described in:
 
 > SPHINCS-: Efficient Stateless Post-Quantum Signatures.
 
-cite the paper itself when discussing the cryptography, not unisphinx.
+cite the paper itself when discussing the cryptography, not unisphincs.
 
 ## intent
 
 we forked publicly to make the post-quantum tooling more discoverable and to assemble it into a single landing that builders and ethereum researchers can reference. we do not relicense vbuterin's work. if vitalik buterin or any of the original sphincs- authors request changes or attribution adjustments, we will comply immediately.
 
-contact: open an issue on this repository, or reach the team via channels listed at [unisphinx.xyz](https://unisphinx.xyz).
+contact: open an issue on this repository, or reach the team via channels listed at [unisphincs.xyz](https://unisphincs.xyz).

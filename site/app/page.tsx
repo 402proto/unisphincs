@@ -8,7 +8,7 @@ function SphinxMark() {
     /* eslint-disable-next-line @next/next/no-img-element */
     <img
       src="/logo.svg"
-      alt="unisphinx mark"
+      alt="unisphincs mark"
       width={170}
       height={128}
       style={{ display: "block" }}
@@ -27,16 +27,16 @@ export default function Page() {
           <div className="logo-mark">
             <SphinxMark />
           </div>
-          <h1>unisphinx</h1>
+          <h1>unisphincs</h1>
           <div className="tag">
             post-quantum signatures for the next ethereum. uniswap-ready
             toolkit around sphincs-.
           </div>
           <div className="cta-row">
             <a className="btn btn-primary" href="#token">
-              buy $unisphinx
+              buy $unisphincs
             </a>
-            <a className="btn" href="https://github.com/402proto/unisphinx">
+            <a className="btn" href="https://github.com/402proto/unisphincs">
               github
             </a>
             <a className="btn" href="https://github.com/vbuterin/sphincsminus">
@@ -122,7 +122,7 @@ export default function Page() {
 
         <Reveal>
           <section>
-            <span className="section-tag">03 · why unisphinx</span>
+            <span className="section-tag">03 · why unisphincs</span>
             <h2>we package the work for builders</h2>
             <p>
               we forked sphincs- and wrapped it in everything a builder needs
@@ -142,9 +142,9 @@ export default function Page() {
         <Reveal>
           <section id="token">
             <span className="section-tag">04 · the token</span>
-            <h2>$unisphinx funds the tooling</h2>
+            <h2>$unisphincs funds the tooling</h2>
             <p>
-              a <b>$UNISPHINX</b> token launches on ethereum mainnet to fund
+              a <b>$UNISPHINCS</b> token launches on ethereum mainnet to fund
               continued work: solidity verifier development, security
               audits, ecosystem integration, and outreach to wallet
               providers. the token does not gate access to the cryptography.
@@ -155,9 +155,9 @@ export default function Page() {
               <div className="label">contract address</div>
               <div className="ca pending">tbd — announced on this page at launch</div>
               <div className="label">pool</div>
-              <div className="ca pending">tbd — uniswap v4, unisphinx/eth</div>
+              <div className="ca pending">tbd — uniswap v4, unisphincs/eth</div>
               <div className="label">total supply</div>
-              <div className="ca">21,000,000 $UNISPHINX</div>
+              <div className="ca">21,000,000 $UNISPHINCS</div>
               <div className="links">
                 <a href="#" aria-disabled>uniswap (pending)</a>
                 <a href="#" aria-disabled>dexscreener (pending)</a>
@@ -177,14 +177,14 @@ export default function Page() {
                 vbuterin/sphincsminus
               </a>
               . every cryptographic file is the work of vitalik buterin and
-              the sphincs- paper authors. unisphinx adds: a rebranded readme,
+              the sphincs- paper authors. unisphincs adds: a rebranded readme,
               this landing, full attribution, and a permissive license for
               the additions only.
             </p>
             <p>
               if vitalik buterin or any of the original authors request
               changes, we comply immediately. see{" "}
-              <a href="https://github.com/402proto/unisphinx/blob/main/ATTRIBUTION.md">
+              <a href="https://github.com/402proto/unisphincs/blob/main/ATTRIBUTION.md">
                 ATTRIBUTION.md
               </a>{" "}
               in the repo.
@@ -213,8 +213,8 @@ export default function Page() {
                 (research paper, included in repo)
               </li>
               <li>
-                <a href="https://github.com/402proto/unisphinx">
-                  402proto/unisphinx
+                <a href="https://github.com/402proto/unisphincs">
+                  402proto/unisphincs
                 </a>{" "}
                 — this fork
               </li>
@@ -230,10 +230,10 @@ export default function Page() {
 
         <footer>
           <p>
-            unisphinx · cryptography by vbuterin · tooling by 402proto · 2026
+            unisphincs · cryptography by vbuterin · tooling by 402proto · 2026
           </p>
           <div className="channels">
-            <a href="https://github.com/402proto/unisphinx">github</a>
+            <a href="https://github.com/402proto/unisphincs">github</a>
             <a href="#">twitter (soon)</a>
             <a href="#">telegram (soon)</a>
           </div>

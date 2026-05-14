@@ -1,8 +1,8 @@
-MIT License (for unisphinx additions only)
+MIT License (for unisphincs additions only)
 
-Copyright (c) 2026 unisphinx contributors
+Copyright (c) 2026 unisphincs contributors
 
-This license applies ONLY to files added by the unisphinx project:
+This license applies ONLY to files added by the unisphincs project:
 - README.md
 - ATTRIBUTION.md
 - LICENSE (this file)
@@ -18,14 +18,14 @@ authors. See ATTRIBUTION.md.
 ---
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of unisphinx-licensed files and associated documentation files, to deal
+of unisphincs-licensed files and associated documentation files, to deal
 in them without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of them, and to permit persons to whom these files are furnished to do
 so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the unisphinx-licensed files.
+copies or substantial portions of the unisphincs-licensed files.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
