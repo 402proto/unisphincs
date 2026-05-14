@@ -4,7 +4,7 @@ import "./globals.css";
 const TITLE = "unisphincs";
 const DESCRIPTION =
   "post-quantum signatures for the next ethereum. uniswap-ready toolkit around sphincs-.";
-const SITE_URL = "https://unisphincs.vercel.app";
+const SITE_URL = "https://unisphincs.xyz";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     siteName: "unisphincs",
     images: [
       {
-        url: "/logo_transparent.png",
-        width: 378,
-        height: 284,
-        alt: "unisphincs",
+        url: "/og.png",
+        width: 2171,
+        height: 724,
+        alt: "unisphincs · post-quantum signatures for the next ethereum",
       },
     ],
     type: "website",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     site: "@UniSphincs",
     creator: "@UniSphincs",
-    images: ["/logo_transparent.png"],
+    images: ["/og.png"],
   },
 };
 
