@@ -118,6 +118,30 @@ header.hero .tag {
   text-decoration: none;
 }
 
+.btn-icon {
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--fg);
+}
+
+.btn-icon svg {
+  display: block;
+}
+
+.btn-icon:hover {
+  transform: translateY(-2px);
+  color: var(--pink);
+}
+
+.btn-icon.btn-primary:hover {
+  color: #fff;
+}
+
 .btn:hover {
   background: var(--rule);
   color: var(--fg);
@@ -383,17 +407,31 @@ footer {
 footer .channels {
   display: flex;
   justify-content: center;
-  gap: 1.25rem;
-  margin-top: 1rem;
+  gap: 1rem;
+  margin-top: 1.25rem;
   flex-wrap: wrap;
 }
 
 footer .channels a {
   color: var(--dim);
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--rule);
+  transition: all 0.15s;
 }
 
 footer .channels a:hover {
   color: var(--pink);
+  border-color: var(--pink);
+  transform: translateY(-2px);
+}
+
+footer .channels svg {
+  display: block;
 }
 
 /* ───────── marquee ───────── */

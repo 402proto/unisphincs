@@ -2,6 +2,7 @@ import Marquee from "./components/Marquee";
 import Terminal from "./components/Terminal";
 import QuantumEta from "./components/QuantumEta";
 import Reveal from "./components/Reveal";
+import { XIcon, TelegramIcon, GitHubIcon, ForkIcon } from "./components/Icons";
 
 function SphinxMark() {
   return (
@@ -33,17 +34,37 @@ export default function Page() {
             toolkit around sphincs-.
           </div>
           <div className="cta-row">
-            <a className="btn btn-primary" href="https://x.com/UniSphincs">
-              twitter
+            <a
+              className="btn btn-icon btn-primary"
+              href="https://x.com/UniSphincs"
+              aria-label="twitter"
+              title="twitter"
+            >
+              <XIcon size={20} />
             </a>
-            <a className="btn" href="#">
-              telegram
+            <a
+              className="btn btn-icon"
+              href="#"
+              aria-label="telegram (soon)"
+              title="telegram (soon)"
+            >
+              <TelegramIcon size={20} />
             </a>
-            <a className="btn" href="https://github.com/unisphincs/unisphincs">
-              github
+            <a
+              className="btn btn-icon"
+              href="https://github.com/unisphincs/unisphincs"
+              aria-label="github"
+              title="github"
+            >
+              <GitHubIcon size={20} />
             </a>
-            <a className="btn" href="https://github.com/vbuterin/sphincsminus">
-              upstream
+            <a
+              className="btn btn-icon"
+              href="https://github.com/vbuterin/sphincsminus"
+              aria-label="upstream (vbuterin/sphincsminus)"
+              title="upstream — vbuterin/sphincsminus"
+            >
+              <ForkIcon size={20} />
             </a>
           </div>
           <p className="oracle">
@@ -208,9 +229,23 @@ export default function Page() {
             unisphincs · cryptography by vbuterin · tooling by unisphincs · 2026
           </p>
           <div className="channels">
-            <a href="https://github.com/unisphincs/unisphincs">github</a>
-            <a href="https://x.com/UniSphincs">twitter</a>
-            <a href="#">telegram (soon)</a>
+            <a
+              href="https://github.com/unisphincs/unisphincs"
+              aria-label="github"
+              title="github"
+            >
+              <GitHubIcon size={18} />
+            </a>
+            <a
+              href="https://x.com/UniSphincs"
+              aria-label="twitter"
+              title="twitter"
+            >
+              <XIcon size={18} />
+            </a>
+            <a href="#" aria-label="telegram (soon)" title="telegram (soon)">
+              <TelegramIcon size={18} />
+            </a>
           </div>
         </footer>
       </main>
