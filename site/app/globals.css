@@ -571,15 +571,36 @@ footer .channels a:hover {
   color: var(--dimmer);
   font-family:
     "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.terminal-counter {
+  font-family:
+    "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.7rem;
+  color: var(--pink);
+  letter-spacing: 0.05em;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid rgba(255, 0, 122, 0.3);
+  border-radius: 999px;
+  background: rgba(255, 0, 122, 0.06);
 }
 
 .terminal-body {
   padding: 1.1rem 1.25rem;
-  min-height: 280px;
+  min-height: 340px;
   font-family:
     "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
   font-size: 0.82rem;
   line-height: 1.7;
+  transition: opacity 0.5s ease;
+}
+
+.terminal-body.fading {
+  opacity: 0;
 }
 
 .tline {
