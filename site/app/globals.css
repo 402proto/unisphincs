@@ -1,0 +1,256 @@
+:root {
+  --bg: #0a0908;
+  --fg: #e8dcc4;
+  --dim: #6e5c3e;
+  --accent: #d4a574;
+  --accent-bright: #f5c98a;
+  --rule: #1f1a13;
+  --burn: #b35030;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family:
+    "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, Palatino,
+    "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(212, 165, 116, 0.06), transparent 70%),
+    var(--bg);
+  min-height: 100vh;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--accent);
+}
+
+a:hover {
+  color: var(--accent-bright);
+  border-bottom-style: solid;
+}
+
+code,
+.mono {
+  font-family:
+    "JetBrains Mono", "SF Mono", Menlo, Consolas, "Courier New", monospace;
+  font-size: 0.9em;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem 4rem;
+}
+
+header.hero {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.glyph {
+  font-family:
+    "JetBrains Mono", "SF Mono", Menlo, Consolas, "Courier New", monospace;
+  font-size: 5rem;
+  font-weight: 300;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+header.hero h1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+header.hero .tag {
+  color: var(--dim);
+  font-style: italic;
+  font-size: 1.05rem;
+}
+
+.oracle {
+  color: var(--accent);
+  font-style: italic;
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 1.05rem;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+}
+
+h2::before {
+  content: "§ ";
+  color: var(--dim);
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 3rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.92rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+th {
+  color: var(--dim);
+  font-weight: 500;
+  font-style: italic;
+}
+
+ol,
+ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+.token-card {
+  border: 1px solid var(--rule);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  background: rgba(212, 165, 116, 0.02);
+}
+
+.token-card .label {
+  color: var(--dim);
+  font-size: 0.78rem;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  margin-bottom: 0.25rem;
+}
+
+.token-card .ca {
+  font-family:
+    "JetBrains Mono", "SF Mono", Menlo, Consolas, "Courier New", monospace;
+  font-size: 0.85rem;
+  color: var(--accent);
+  word-break: break-all;
+  margin-bottom: 0.75rem;
+}
+
+.token-card .ca.pending {
+  color: var(--dim);
+  font-style: italic;
+}
+
+.token-card .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+}
+
+footer {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.85rem;
+  color: var(--dim);
+  text-align: center;
+}
+
+footer .channels {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.pulse {
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--accent-bright);
+  margin-right: 0.4rem;
+  vertical-align: middle;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+blockquote {
+  border-left: 2px solid var(--accent);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: var(--fg);
+  font-style: italic;
+  opacity: 0.9;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: normal;
+  color: var(--dim);
+  font-size: 0.85rem;
+}
