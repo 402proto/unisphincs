@@ -13,7 +13,7 @@
 
 a uniswap-ready toolkit around **sphincs-**, built on top of vitalik buterin's reference implementation.
 
-[website](https://unisphincs.xyz) · [upstream](https://github.com/vbuterin/sphincsminus) · [research paper](./SPHINCS-%20_%20Efficient%20Stateless%20Post-Quantum%20Signat.md) · [attribution](./ATTRIBUTION.md)
+[website](https://unisphincs.vercel.app) · [twitter](https://x.com/UniSphincs) · [upstream](https://github.com/vbuterin/sphincsminus) · [research paper](./SPHINCS-%20_%20Efficient%20Stateless%20Post-Quantum%20Signat.md) · [attribution](./ATTRIBUTION.md)
 
 </div>
 

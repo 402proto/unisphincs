@@ -234,7 +234,7 @@ export default function Page() {
           </p>
           <div className="channels">
             <a href="https://github.com/402proto/unisphincs">github</a>
-            <a href="#">twitter (soon)</a>
+            <a href="https://x.com/UniSphincs">twitter</a>
             <a href="#">telegram (soon)</a>
           </div>
         </footer>
