@@ -5,50 +5,14 @@ import Reveal from "./components/Reveal";
 
 function SphinxMark() {
   return (
-    <svg
-      width="120"
-      height="120"
-      viewBox="0 0 200 200"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-label="unisphinx mark"
-    >
-      <defs>
-        <linearGradient id="pinkGrad" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#FF4DA1" />
-          <stop offset="100%" stopColor="#FF007A" />
-        </linearGradient>
-      </defs>
-      {/* nemes headdress wings (signature striped headcloth) */}
-      <path
-        d="M40 70 Q40 50 70 45 L100 40 L130 45 Q160 50 160 70 L160 100 L150 110 L150 78 Q140 70 130 68 L100 64 L70 68 Q60 70 50 78 L50 110 L40 100 Z"
-        fill="url(#pinkGrad)"
-      />
-      <line x1="55" y1="75" x2="55" y2="105" stroke="#0d0717" strokeWidth="2" opacity="0.4" />
-      <line x1="68" y1="71" x2="68" y2="108" stroke="#0d0717" strokeWidth="2" opacity="0.4" />
-      <line x1="132" y1="71" x2="132" y2="108" stroke="#0d0717" strokeWidth="2" opacity="0.4" />
-      <line x1="145" y1="75" x2="145" y2="105" stroke="#0d0717" strokeWidth="2" opacity="0.4" />
-      <path
-        d="M75 70 Q75 60 100 58 Q125 60 125 70 L125 115 Q125 130 100 132 Q75 130 75 115 Z"
-        fill="url(#pinkGrad)"
-      />
-      <path d="M97 50 Q100 42 103 50 Q100 55 97 50 Z" fill="url(#pinkGrad)" />
-      <circle cx="100" cy="48" r="1.5" fill="#0d0717" />
-      <ellipse cx="90" cy="88" rx="3.5" ry="2.5" fill="#0d0717" />
-      <ellipse cx="110" cy="88" rx="3.5" ry="2.5" fill="#0d0717" />
-      <path d="M82 88 Q78 89 76 91" stroke="#0d0717" strokeWidth="1.5" fill="none" />
-      <path d="M118 88 Q122 89 124 91" stroke="#0d0717" strokeWidth="1.5" fill="none" />
-      <path d="M100 102 L100 110" stroke="#0d0717" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
-      <path d="M93 118 Q100 121 107 118" stroke="#0d0717" strokeWidth="1.5" fill="none" opacity="0.6" />
-      <path d="M93 130 L97 145 L103 145 L107 130 Z" fill="url(#pinkGrad)" opacity="0.85" />
-      <path
-        d="M50 135 Q60 130 80 132 L100 135 L120 132 Q140 130 150 135 L160 150 Q165 158 160 165 L40 165 Q35 158 40 150 Z"
-        fill="url(#pinkGrad)"
-        opacity="0.95"
-      />
-      <rect x="50" y="160" width="14" height="8" rx="2" fill="url(#pinkGrad)" />
-      <rect x="136" y="160" width="14" height="8" rx="2" fill="url(#pinkGrad)" />
-    </svg>
+    /* eslint-disable-next-line @next/next/no-img-element */
+    <img
+      src="/logo.svg"
+      alt="unisphinx mark"
+      width={170}
+      height={128}
+      style={{ display: "block" }}
+    />
   );
 }
 
