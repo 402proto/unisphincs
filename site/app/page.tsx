@@ -48,9 +48,9 @@ export default function Page() {
             </a>
             <a
               className="btn btn-icon"
-              href="#"
-              aria-label="telegram (soon)"
-              title="telegram (soon)"
+              href="https://t.me/unisphincs"
+              aria-label="telegram"
+              title="telegram"
             >
               <TelegramIcon size={20} />
             </a>
@@ -250,7 +250,11 @@ export default function Page() {
             >
               <XIcon size={18} />
             </a>
-            <a href="#" aria-label="telegram (soon)" title="telegram (soon)">
+            <a
+              href="https://t.me/unisphincs"
+              aria-label="telegram"
+              title="telegram"
+            >
               <TelegramIcon size={18} />
             </a>
           </div>
